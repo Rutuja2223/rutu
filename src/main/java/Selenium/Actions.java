@@ -52,5 +52,6 @@ public class Actions {
 	String data = WorkbookFactory.create(file).getSheet("Sheet1").getRow(0).getCell(1).getStringCellValue();
  
 	System.out.println(data);
+	System.out.println(data);
 }
 }
